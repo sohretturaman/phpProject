@@ -1,0 +1,404 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+  
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu{
+     
+    height: 80 px;
+    padding: 0 20px;
+}
+
+#logo {
+      font-size: 30 px;
+      line-height: 80 px ;
+      color: #003666;
+      float: left;
+}
+
+nav{
+      float: right;
+      line-height: 80 px ;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 30 px;
+    color: #003666;
+}
+
+nav a:hover {
+      border : 2px solid #003666;
+    
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+.ikon {
+      margin-right :7 px ;
+      font-size: 16 px;
+}
+
+
+#anasayfa {
+     height: 600 px;
+}
+
+.resim2{
+
+    height: 600 px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#black {
+    height: 600 px;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+#icerik {
+      position: absolute;
+      top : 50% ;
+      left :40%;
+      transform :translate(-50% ,-50%);
+      color: rgb(10, 9, 9) ;
+      font-size: 30 px;
+}
+
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding :50 px ;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600 ;
+}
+
+h3 {
+    font-size: 55px;
+    color:#003666 ;
+    text-shadow: 0 px 1px 1 px
+         black;
+    font-weight: 600;
+}
+
+.container{
+    width:1200 px;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+}
+
+#sol{
+    float:left;
+    border-right: 3px solid
+    #445c6e;
+
+    font-size: 30 px;
+    width: 200 px;
+    color :#445c6e;
+}
+
+#h5sol {
+   line-height: 1.6;
+   font-size: 25 px;
+   font-weight: 600;
+}
+
+#h5sol ,#sag {
+    margin:0;
+    padding:0;
+    margin-top: 20 px ;
+
+}
+
+span {
+    font-size: 50 px;
+    margin-right: 7 px;
+    line-height: 42 px;
+    color :#003666;
+    font-weight: 600;
+}
+
+#sag {
+    float:right ;
+    width: 750;
+    color: #999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15 px;
+    line-height: 1.8;
+    font-weight:100;
+}
+
+
+.img-fluid { /* kontrol et  */
+     max-width: 100%;
+     height: auto;
+}
+
+
+.mt100{
+   margin-top: 100 px;
+}
+
+#pson {
+     color:#999;
+     letter-spacing: 1px;
+     font-size: 15 px;
+     line-height: 1.8;
+     margin-top :30px ;
+     font-weight: 100;
+}
+
+#egitimler {
+    background-color: #f8f9fa;
+    padding : 50 px;
+    text-align: center;
+    height: 700 px;
+}
+.card {
+     width: 300px;
+     height: 350px;
+     border :1px solid #ddd;
+     padding :0;
+     display: inline-block;
+    }
+
+.baslikcard {
+     font-size: 15px;
+     color: #003666;
+}
+
+.cardp {
+    color :#888;
+}
+
+.card:hover{
+    border :2px solid gray;
+}
+
+
+#ekip{
+    width:100% ;
+    background-color: #003666;
+    padding:5px;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+
+#ekiph3{
+    color:white ;
+}
+.deneme{
+     max-width:150px ;
+     height: 100px;
+     float:none;
+     display: inline-block;
+
+}
+ .sutun-sol-sag {
+      width: 250px ;
+      height: 300px;
+      float :left ;
+      padding :50 px ;
+      display: inline-block;
+      margin-right: 150px;
+
+
+ }
+
+.oval{
+    border-radius: 50%;
+}
+
+.ekipisim{
+    color :white ;
+    font-size: 25 px;
+    margin-bottom: 12 px;
+
+}
+
+.ekipp {
+    color :#888;
+    font-size: 20 px;
+}
+
+.social{
+    color:white ;
+    border :1 px solid white ;
+    padding: 10 px;
+    width: 50 px;
+    border-radius: 5 px;
+    margin: 5 15 ;
+}
+
+.social:hover{
+    color: #888 ;
+
+}
+
+.sutun{
+      width: 385px ;
+      height: 350px;
+      float :left ;
+      padding :10px ;
+      margin-right: 150px;
+
+
+}
+
+#iletisim {  /*  kontrol et */
+  
+    background-size: cover;
+    padding : 50 px ;
+    height : 800px ;
+    text-align : center ;
+    background-color: grey;
+    border:2px soid black;
+   
+}
+
+#h3iletisim{
+    color: white;
+}
+
+.iletisimresim {
+     background-repeat: 0;
+     height: 800px;
+     border: 2px;
+
+}
+#iletisimopak {
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 30 px 20 px;
+    border-radius: 5 px;
+    margin-bottom: 50 px;
+    height: 550 px;
+    z-index:2;
+    background-color: brown;
+}
+
+#formgroup {
+    width : 50% ;
+    float : left ;
+    height: 400 px ;
+    text-align: left;
+    z-index:3 ;
+    background-color: brown;
+
+   
+}
+
+
+
+#solform{
+    width: 400px;
+    float:left;
+    padding-right: 5px;
+    z-index:4 ;
+}
+
+
+
+
+#sagform{
+    width: 50%;
+    float:right;
+    padding-left: 5px; 
+    border-radius: 5px;
+    z-index:4 ;
+
+}
+
+.form-control {
+     width : 100%;
+     padding : 10 px ;
+     font-size : 15 px;
+     line-height: 1.5;
+     color: #495057;
+     background-color: white;
+     margin : 10px;
+     border-radius: 5px;
+     border: 1px solid #ced4da ;
+    
+
+}
+
+
+textarea {
+    font-family: Arial;
+    z-index:4 ;
+
+}
+
+input [type="submit"] {
+    cursor :pointer;
+    background-color: #445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding :30px 30px ;
+    color : white ;
+    border : 2px solid white ;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top :15px ;
+    z-index:4;
+
+}
+
+
+#adres {
+   width :450px ;
+   float : right ;
+   z-index:4 ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
